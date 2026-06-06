@@ -1,0 +1,16 @@
+{
+  "name": "cerberus-hub-api",
+  "version": "1.0.0",
+  "description": "Cerberus Hub - Remote Control API for Steal a Brainrot",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "sql.js": "^1.12.0",
+    "uuid": "^9.0.0"
+  }
+}
